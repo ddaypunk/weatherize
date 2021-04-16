@@ -1,9 +1,9 @@
-Flask==0.10.1
+Flask==1.0.0
 Jinja2==2.11.3
 MarkupSafe==0.23
-Werkzeug==0.9.6
+Werkzeug==0.15.3
 itsdangerous==0.24
 pytz==2014.4
-requests==2.3.0
+requests==2.20.0
 tzlocal==1.1.1
 wsgiref==0.1.2
