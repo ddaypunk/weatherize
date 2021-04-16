@@ -15,7 +15,7 @@ def utc_to_local(utc_dt, local_tz=get_localzone()):
 
 	#local_tz = pytz.timezone('America/Chicago')
 	#print local timezone to check
-	print "Detected Timezone =\t" + str(local_tz)
+# 	print "Detected Timezone =\t" + str(local_tz)
 	#use local timezone to convert utc datetime to local datetime
 	local_dt = utc_dt.replace(tzinfo=pytz.UTC).astimezone(local_tz)
 	return local_tz.normalize(local_dt) #.normallize may be unnecessary
